@@ -1,3 +1,0 @@
-text 1 -aa
-text 1 -bb
-text 1 -cc
