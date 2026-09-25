@@ -6,7 +6,7 @@
 /*   By: edsalgad <edsalgad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/07 11:41:14 by edsalgad          #+#    #+#             */
-/*   Updated: 2026/05/12 14:42:35 by edsalgad         ###   ########.fr       */
+/*   Updated: 2026/05/12 12:15:13 by edsalgad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ char	*ft_strjoin(char *storage, char *buffer)
 		return (ft_strdup(buffer));
 	res = malloc(ft_strlen(storage) + ft_strlen(buffer) + 1);
 	if (!res)
-		return (free(storage), NULL);
+		return (NULL);
 	i = -1;
 	while (storage[++i])
 		res[i] = storage[i];
